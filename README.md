@@ -1,7 +1,7 @@
 # arduino_scope_200Ksps
 arduino scope with nokia display
 
-!(scope_picture.jpg)
+![Screenshot](scope_picture.jpg)
 
 -uses arduino adc for sampling at 200000 samples per second, 6 bits resolution.
 
