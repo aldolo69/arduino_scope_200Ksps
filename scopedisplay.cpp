@@ -86,7 +86,8 @@ void displayDrawGrid()
       memcpy(addr, (char*)grid, 8);
       addr += 8;
     }
-    displayDrawGrid4x8a(addr);
+    memcpy(addr, (char*)grid, 4);
+
 
   }
   displayLineX1Y1X2Y2(0, 24, 83, 24);
